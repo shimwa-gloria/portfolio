@@ -1,0 +1,74 @@
+*{
+ margin:0;
+ padding:2px;
+}
+
+
+
+img{
+    width:150px;
+    border-radius: 10px;
+}
+nav{ background-color:beige;
+    padding:10px;
+    text-align: center;
+    font-weight:bolder;
+}
+a{
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+a :hover{ 
+    text-decoration: none;
+    color:rgb(228, 74, 115);
+    padding:5px
+
+}
+a:visited{
+    background-color: rgb(171, 68, 68);
+    color: rgb(199, 43, 43);
+}
+body{
+    background-color: rgb(92, 198, 208);
+}
+#about{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.about{
+    margin-top: ;
+}
+section{
+    margin-left: 15%;
+    box-shadow: 5px 5px 5px black;
+    width: 40%;
+    border-radius: 10%;
+    padding:10%;
+    background-color: rgb(176, 103, 15);
+}
+footer{
+    margin-left: 100;
+    box-shadow: 5px 5px 5px black;
+    display:flex;
+    border-left: 5px solid teal;
+    justify-content: space-between;
+    background-color: rgb(191, 111, 13);
+    border-radius: 15px 20px 15px 20px ;
+}
+.contact img{
+    width:40px;
+    height:40px;
+    border-radius: 80%;
+}
+
+#skills,#hobbies,#experience{
+    padding:10px
+    width: 40%;
+}
+#experience,#hobbies{
+    margin-left:auto ;
+}
+
